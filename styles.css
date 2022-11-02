@@ -72,6 +72,10 @@
     justify-content: space-around !important;
 }
 
+.space{
+    height: 20rem;
+}
+
 @media only screen and (max-width: 600px) {
     .btn{
         margin: .5rem auto;

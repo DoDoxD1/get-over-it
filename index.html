@@ -2,112 +2,169 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="styles.css">
 
-    <title>Get Over It</title>
+  <title>Get Over It</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Felicity</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">How it works</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Plans & pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Our counselors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Wellness Forum</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-primary">Sign Up</button>
-              </li>
-              <li class="nav-item">
-                <button type="button" class="btn btn-outline-primary">Login</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <img src="images/home.webp" class="img-fluid" alt="...">
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Talk.Resolve.Heal.</h5>
-            <p class="card-text">Online Counselling Therapy With Top Psychologists
-              Anytime, Anywhere, Any device.</p>
-            <a href="#" class="btn btn-primary" id="get-started-btn">Get Started</a>
-          </div>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Felicity</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">How it works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Our Experts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Book a session</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Emergency Helpline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary">Sign Up</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-primary">Login</button>
+          </li>
+        </ul>
       </div>
-      <h1 id="heading">Choose Help. Not Suffering</h1>
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="images/avatar.jpg" class="d-block w-100" alt="..." height="500">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="images/avatar2.jpg" class="d-block w-100" alt="..." height="500">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/avatar.jpg" class="d-block w-100" alt="..." height="500">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="images/avatar2.jpg" class="d-block w-100" alt="..." height="500">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Counsellor login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <img src="images/home.webp" class="img-fluid" alt="...">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Talk.Resolve.Heal.</h5>
+        <p class="card-text">Heal and thrive in a non judgemental space. </p>
+        <a href="#" class="btn btn-primary" id="get-started-btn">STATRT NOW</a>
       </div>
+    </div>
+  </div>
+  <div class="container">
+    <h1 id="heading">Our Experts</h1>
+    <div class="main-carousel">
+      <div class="carousel-cell"><img src="images/avatar.jpg" alt="" height="200"></div>
+      <div class="carousel-cell"><img src="images/avatar.jpg" alt="" height="200"></div>
+      <div class="carousel-cell"><img src="images/avatar.jpg" alt="" height="200"></div>
+    </div>
+    <h1 id="heading">How can we help you</h1>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+          type="button" role="tab" aria-controls="pills-home" aria-selected="true">Stress</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-relationships-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-relationships" type="button" role="tab" aria-controls="pills-relationships"
+          aria-selected="false">Relationships</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-confindence-tab" data-bs-toggle="pill" data-bs-target="#pills-confindence"
+          type="button" role="tab" aria-controls="pills-confindence" aria-selected="false">Confidence</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-anxiety-tab" data-bs-toggle="pill" data-bs-target="#pills-anxiety"
+          type="button" role="tab" aria-controls="pills-anxiety" aria-selected="false">Anxiety</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-doubt-tab" data-bs-toggle="pill" data-bs-target="#pills-doubt" type="button"
+          role="tab" aria-controls="pills-doubt aria-selected=" false">Self Doubt</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-grief-tab" data-bs-toggle="pill" data-bs-target="#pills-grief" type="button"
+          role="tab" aria-controls="pills-grief" aria-selected="false">Grief</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-couple-tab" data-bs-toggle="pill" data-bs-target="#pills-couple"
+          type="button" role="tab" aria-controls="pills-couple" aria-selected="false">Couple Threapy</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-lgbtq-tab" data-bs-toggle="pill" data-bs-target="#pills-lgbtq" type="button"
+          role="tab" aria-controls="pills-lgbtq" aria-selected="false">LGBTQ</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+        tabindex="0">Stress Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa magni nisi dolores
+        dolor perferendis alias repellat, debitis fugiat veritatis laudantium fuga maiores aliquam est, facilis beatae
+        molestias cumque quo itaque assumenda totam natus corrupti.</div>
+      <div class="tab-pane fade" id="pills-relationships" role="tabpanel" aria-labelledby="pills-relationships-tab"
+        tabindex="0">Relationships Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima
+        commodi quae ducimus in ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi
+        tenetur similique rem!
+      </div>
+      <div class="tab-pane fade" id="pills-confindence" role="tabpanel" aria-labelledby="pills-confindence-tab"
+        tabindex="0">Confidence Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima commodi
+        quae ducimus in ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi tenetur
+        similique rem!
+      </div>
+      <div class="tab-pane fade" id="pills-anxiety" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+        Anxiety Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima commodi quae ducimus in
+        ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi tenetur similique rem!
+      </div>
+      <div class="tab-pane fade" id="pills-doubt" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">Self
+        doubt Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima commodi quae ducimus in
+        ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi tenetur similique rem!
+      </div>
+      <div class="tab-pane fade" id="pills-grief" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+        Grief Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima commodi quae ducimus in
+        ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi tenetur similique rem!
+      </div>
+      <div class="tab-pane fade" id="pills-couple" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+        Couple Threapy Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima commodi quae
+        ducimus in ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi tenetur
+        similique rem!
+      </div>
+      <div class="tab-pane fade" id="pills-lgbtq" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+        LGBTQ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil a, dolore minima commodi quae ducimus in
+        ut sequi inventore esse, modi placeat doloribus et ipsum rerum consequuntur facilis nisi tenetur similique rem!
+      </div>
+    </div>
+    <div class="space"></div>
+  </div>
 </body>
+
+<script>
+  var elem = document.querySelector('.main-carousel');
+  var flkty = new Flickity(elem, {
+    // options
+    cellAlign: 'left',
+    contain: true,
+    groupCells: 3
+  });
+
+  var flkty = new Flickity('.main-carousel', {
+    // options
+  });
+</script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </html>
