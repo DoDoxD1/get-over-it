@@ -103,6 +103,9 @@
 .fw-normal{
     margin: 1rem 0rem;
 }
+#works{
+    height: 24vw;
+}
 
 @media only screen and (max-width: 600px) {
     .btn{
