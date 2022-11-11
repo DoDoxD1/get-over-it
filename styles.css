@@ -107,14 +107,89 @@
     height: 24vw;
 }
 
+.connect-content{
+    width: 25rem;
+    text-align:center;
+    margin-left: 10rem;
+}
+
 .carousel-cell{
     width: 31%;
     text-align: center;
     padding-right: 3rem !important;
 }
+#sign-up{
+    margin-left: 33rem;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .heading{
+        text-align: center;
+    }
+    .col img{
+        margin-left: 4rem;
+    }
+    #top{
+        /* display: none !important; */
+        margin-top: -18rem;
+        width: 30rem;
+    }
+    #sign-up{
+        margin-left: 0rem;
+    }
+    #heading{
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+    .heading{
+        margin-top: 4rem;
+    } 
+    .main-carousel{
+        margin: 2rem 0rem;
+    }
+    .connect{
+        margin-left: 3rem;
+    }
+}
 
 @media only screen and (max-width: 600px) {
-    .btn{
-        margin: .5rem auto;
+    .connect-content{
+        margin-left: 0rem;
+        width: 22rem;
+    }
+    .heading{
+        text-align: center;
+    }
+    .col img{
+        height: 10rem;
+        margin-left: 2rem;
+    }
+    #top{
+        display: none !important;
+    }
+    #sign-up{
+        margin-left: 0rem;
+    }
+    #heading{
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    .carousel-cell{
+        width: 100%;
+        text-align: center;
+        padding-right: 1rem !important;
+    }
+    .heading{
+        margin-top: 2rem;
+    }
+    .main-carousel{
+        margin: 2rem 0rem;
+    }
+    .connect{
+        margin-left: 0rem;
+    }
+    .works img{
+        margin-left: 2rem;
     }
 }
