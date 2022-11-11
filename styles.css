@@ -123,7 +123,10 @@
 }
 
 @media only screen and (max-width: 900px) {
-    
+    .btn-outline-primary{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
     .heading{
         text-align: center;
     }
@@ -132,7 +135,7 @@
     }
     #top{
         /* display: none !important; */
-        margin-top: -18rem;
+        margin-top: -17rem;
         width: 30rem;
     }
     #sign-up{
@@ -154,6 +157,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+    
     .connect-content{
         margin-left: 0rem;
         width: 22rem;
