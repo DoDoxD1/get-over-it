@@ -107,6 +107,12 @@
     height: 24vw;
 }
 
+.carousel-cell{
+    width: 31%;
+    text-align: center;
+    padding-right: 3rem !important;
+}
+
 @media only screen and (max-width: 600px) {
     .btn{
         margin: .5rem auto;
